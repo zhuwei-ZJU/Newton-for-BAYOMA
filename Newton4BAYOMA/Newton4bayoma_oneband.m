@@ -1,4 +1,4 @@
-function out = bayoma_oneband_EMNewton(in)
+function out = Newton4bayoma_oneband(in)
 %=========================================
 % Data preparation
 %=========================================
@@ -292,4 +292,5 @@ out.nNewtonIter = tNewton-1;
 out.time_EM = time_EM;
 out.time_Newton = time_Newton;
 out.time_req = time_EM+time_Newton;
+
 end
